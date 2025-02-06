@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkySac|Login-page</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+<!-- Login Page -->
+    <div class="main">
+        <h1>Welcome Back,<br>Login Here </h1>
+        <div class="login">
+        <input type="text" id="userN" placeholder="Enter Username">
+        <span id="errofu"></span>
+        <input type="password" id="passW" placeholder="Enter Password">
+        <span id="errofp"></span>
+        <p class="para" >Don't Have An Account?<span onclick="registr()" class="para-re">Register Here!</span></p>
+        <button onclick="saved()" class="btn-login">Log In</button>
+    </div>
+    </div>
+    <!-- Register Page -->
+    <div class="mainS">
+        <h1>Hello New User,<br>Register Here!</h1>
+        <div class="register">
+        <input type="text" id="userid" placeholder="Enter Username">
+        <span class="errU"></span>
+        <input type="email" id="email" placeholder="Enter Email">
+        <span class="errE"></span>
+        <input type="number" id="en" placeholder="Enter Number">
+        <span class="errN"></span>
+        <input type="password" id="pas" placeholder="Enter Password">
+        <span class="errP"></span>
+        <input type="password" id="userpass" placeholder="Confirm Password">
+        <span class="errCP"></span>
+        <p class="para" >Already Have An Account?<span onclick="lon()" class="para-re"> Login Here!</span></p>
+        <button class="btn-login" onclick="redone()">Register</button>
+        </div>
+    </div>
+    <div class="conf">
+        <h1>Welcome Back!</h1>
+        <p>We're glad to see you again. Let's make today productive!</p>
+        <div class="profile">
+            <img src="funy.jpeg" alt="welcome">
+            <h3 id="username"> </h3>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
